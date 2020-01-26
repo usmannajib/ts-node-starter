@@ -1,7 +1,7 @@
 {
   "name": "ts-node-starter",
   "version": "0.1.0",
-  "description": "starter project for node using typescript",
+  "description": "A minimal starter template to quickly get started with TypeScript projects",
   "main": "src/index.ts",
   "scripts": {
     "prod": "tsc && node ./build/index.js",
@@ -10,7 +10,11 @@
   "author": "Usman Najeeb",
   "license": "MIT",
   "devDependencies": {
-    "typescript": "^3.7.5",
-    "ts-node-dev": "^1.0.0-pre.44"
+    "@typescript-eslint/eslint-plugin": "^2.17.0",
+    "@typescript-eslint/parser": "^2.17.0",
+    "eslint": "^6.8.0",
+    "prettier": "^1.19.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.7.5"
   }
 }
