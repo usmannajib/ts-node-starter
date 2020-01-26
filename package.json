@@ -1,12 +1,17 @@
 {
   "name": "ts-node-starter",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A minimal starter template to quickly get started with TypeScript projects",
   "main": "src/index.ts",
   "scripts": {
     "prod": "tsc && node ./build/index.js",
     "dev": "ts-node-dev --respawn --transpileOnly src/index.ts"
   },
+  "keywords": [
+    "TypeScript",
+    "Starter-Template",
+    "NodeJS"
+  ],
   "author": "Usman Najeeb",
   "license": "MIT",
   "devDependencies": {
